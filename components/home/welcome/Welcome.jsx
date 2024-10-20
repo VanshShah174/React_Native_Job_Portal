@@ -32,7 +32,7 @@ const Welcome = () => {
             value=""
             onChange={() => {}}
             placeholder="What are you looking for?"
-          />
+          /> 
         </View>
         <TouchableOpacity style={styles.searchBtn} onPress={() => {}}>
           <Image
