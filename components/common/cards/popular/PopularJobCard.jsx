@@ -5,9 +5,11 @@ import { checkImageURL } from "../../../../utils";
 
 const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
   return (
-    <View>
-      <Text>Job Openings</Text>
-    </View>
+   <TouchableOpacity style={styles.container(selectedJob,item)}
+   onPress={() => handleCardPress(item)}
+   >
+
+   </TouchableOpacity>
   );
 };
 
