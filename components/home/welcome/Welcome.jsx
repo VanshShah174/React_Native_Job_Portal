@@ -30,7 +30,7 @@ const Welcome = ({searchTerm ,  setSearchTerm , handleClick}) => {
           <TextInput
             style={styles.searchInput}
             value={searchTerm}
-            onChange={(text) => setSearchTerm(text)}
+            onChangeText={(text) => setSearchTerm(text)}
             placeholder="What are you looking for?"
           /> 
         </View>
@@ -51,7 +51,7 @@ const Welcome = ({searchTerm ,  setSearchTerm , handleClick}) => {
             style={styles.tab(activeJobType,item)}
             onPress={() =>{
               setActiceJobType(item);
-              router.push(`/job/${item}`)
+              router.push(`/search/${item}`)
             }}
             >
               <Text style={styles.tabText(activeJobType,item)} >{item}</Text>
