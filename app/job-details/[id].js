@@ -40,6 +40,7 @@ const JobDetails = () => {
         reFetch();
         setRefreshing(false);
     },[])
+    
 
     const displayTabContent = () => {
         switch (activeTab) {

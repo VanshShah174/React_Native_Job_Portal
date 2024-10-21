@@ -1,6 +1,14 @@
 {
   "expo": {
+    "name": "React_native_Jobs",
+    "slug": "React_native_Jobs",
+    "version": "1.0.0",
     "scheme": "acme",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "web": {
       "bundler": "metro"
     },
@@ -8,7 +16,31 @@
       "expo-router",
       "expo-font"
     ],
-    "name": "React_native_Jobs",
-    "slug": "React_native_Jobs"
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/45332c28-5d74-49fc-9785-fca385c3cde8"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.vansh_shah_1704.React_native_Jobs"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "45332c28-5d74-49fc-9785-fca385c3cde8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }
